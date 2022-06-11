@@ -18,6 +18,8 @@ the correct position. It is a slow and inefficient algorithm, two loops are need
 inside the second loop will be the condition that commands the algorithm), it also has many iterations (reciprocal action between two or more functions).
 functions)
 
+![R](https://user-images.githubusercontent.com/98347450/173174361-b34e13c4-fe36-43f4-9815-1474475f07ac.gif)
+
 Cases
 -----
 Best Case: The best case occurs when the array is already sorted, and then only N comparisons are needed
