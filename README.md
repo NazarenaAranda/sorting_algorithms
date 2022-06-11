@@ -13,12 +13,12 @@ Example:
 
 BUBBLE SORT
 ------------
+![R](https://user-images.githubusercontent.com/98347450/173174361-b34e13c4-fe36-43f4-9815-1474475f07ac.gif)
 It is the simplest algorithm that exists. It is so called because it selects adjacent elements, changes the number that is in the wrong position to the correct position.
 the correct position. It is a slow and inefficient algorithm, two loops are needed (1 to go through the algorithm and the other to make the change, i.e., inside the second loop will be the number that is in the wrong position.
 inside the second loop will be the condition that commands the algorithm), it also has many iterations (reciprocal action between two or more functions).
 functions)
 
-![R](https://user-images.githubusercontent.com/98347450/173174361-b34e13c4-fe36-43f4-9815-1474475f07ac.gif)
 
 Cases
 -----
@@ -47,6 +47,7 @@ Ejemplo:
 
 BUBBLE SORT
 ------------
+![R](https://user-images.githubusercontent.com/98347450/173174361-b34e13c4-fe36-43f4-9815-1474475f07ac.gif)
 Es el algoritmo más simple que existe. Se llama asi porque va seleccionando los elementos adyacentes, cambia el numero que está en la posición incorrecta a
 la posición correcta. Es un algoritmo lento y poco eficiente, se necesitan dos bucles (1 para recorrer el algoritmo y el otro para hacer el cambio, osea 
 adentro del segundo bucle va a estar la condicion que ordene el algoritmo), también tiene muchas iteraciones (acción de modo recíproco entre dos o más 
