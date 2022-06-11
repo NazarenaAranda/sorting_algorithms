@@ -4,7 +4,6 @@
  * @uno: primer puntero
  * @dos: segundo puntero
  */
-
 void _intercambio(int *uno, int *dos)
 {
 	int temp;
@@ -20,7 +19,6 @@ void _intercambio(int *uno, int *dos)
  * @size: numero de elementos en la array
  * Return: void
  */
-
 void bubble_sort(int *array, size_t size)
 {
 	size_t recorrido, cambios;
