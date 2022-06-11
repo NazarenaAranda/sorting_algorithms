@@ -8,17 +8,17 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	int rec, rec2, aux;
+	int recorrido, cambios, aux;
 
-	for (rec = 0; rec <= 9; rec++)
+	for (recorrido = 0; recorrido <= 9; recorrido++)
 	{
-		for (rec2 = 0; rec2 <= 9; rec2++)
+		for (cambios = 0; cambios <= 9; cambios++)
 		{
-			if (array[rec2] > array[rec2 +1])
+			if (array[cambios] > array[cambios + 1])
 			{
-				aux = array[rec2 + 1];
-				array[rec2 + 1] = array[rec2];
-				array[rec2] = aux;
+				aux = array[cambios + 1];
+				array[cambios + 1] = array[cambios];
+				array[cambios] = aux;
 				print_array(array, size);
 			}
 		}
