@@ -18,6 +18,14 @@ the correct position. It is a slow and inefficient algorithm, two loops are need
 inside the second loop will be the condition that commands the algorithm), it also has many iterations (reciprocal action between two or more functions).
 functions)
 
+Cases
+-----
+Best Case: The best case occurs when the array is already sorted, and then only N comparisons are needed
+
+Worst case: The worst case is when the array is reverse sorted, and the maximum number of comparisons and exchanges need to be performed
+
+The average case: The average case is when the array is disordered but not so disordered that comparisons are needed but not so many
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -44,8 +52,8 @@ funciones)
 
 Casos
 -------
-El peor caso: El peor caso se da cuando el array está ordenado de forma inversa, y hay que realizar el máximo número de comparaciones e intercambios
-
 El mejor caso: El mejor caso se da cuando la array ya está ordenada, y entonces sólo se necesitan N comparaciones
+
+El peor caso: El peor caso se da cuando el array está ordenado de forma inversa, y hay que realizar el máximo número de comparaciones e intercambios
 
 El caso medio: El caso medio se da cuando la array está desordenada pero no tanto, hay que hacer comparaciones pero no muchas
