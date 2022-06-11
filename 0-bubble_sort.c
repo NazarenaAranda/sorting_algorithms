@@ -23,13 +23,13 @@ void _intercambio(int *uno, int *dos)
 
 void bubble_sort(int *array, size_t size)
 {
-	unsigned int recorrido, cambios;
+	long unsigned int recorrido, cambios;
 
 	if (size <= 1)
 		return;
 
 	for (recorrido = 0; recorrido < (size - 1); recorrido++)
-		for (cambios = 0; cambios < size - 1; cambios++)
+		for (cambios = 0; cambios < size; cambios++)
 			if (array[cambios - 1] > array[cambios])
 			{
 				_intercambio(&array[cambios - 1], &array[cambios]);
