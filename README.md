@@ -41,3 +41,11 @@ Es el algoritmo más simple que existe. Se llama asi porque va seleccionando los
 la posición correcta. Es un algoritmo lento y poco eficiente, se necesitan dos bucles (1 para recorrer el algoritmo y el otro para hacer el cambio, osea 
 adentro del segundo bucle va a estar la condicion que ordene el algoritmo), también tiene muchas iteraciones (acción de modo recíproco entre dos o más 
 funciones)
+
+Casos
+-------
+El peor caso: El peor caso se da cuando el array está ordenado de forma inversa, y hay que realizar el máximo número de comparaciones e intercambios
+
+El mejor caso: El mejor caso se da cuando la array ya está ordenada, y entonces sólo se necesitan N comparaciones
+
+El caso medio: El caso medio se da cuando la array está desordenada pero no tanto, hay que hacer comparaciones pero no muchas
