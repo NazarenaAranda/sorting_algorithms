@@ -9,6 +9,9 @@ void selection_sort(int *array, size_t size)
 {
 	size_t recorrer, comparar, cambios, aux;
 
+	if (size <= 1)
+		return;
+
 	for (recorrer = 0; recorrer < size - 1; recorrer++)
 	{
 		comparar = recorrer;
@@ -24,7 +27,6 @@ void selection_sort(int *array, size_t size)
 		if (comparar != recorrer)
 			print_array(array, size);
 	}
-		return;
 }
 
 
