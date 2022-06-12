@@ -15,7 +15,7 @@ void selection_sort(int *array, size_t size)
 	for (recorrer = 0; recorrer < size - 1; recorrer++)
 	{
 		comparar = recorrer;
-		
+
 		for (cambios = recorrer + 1; cambios < size; cambios++)
 			if (array[cambios] < array[comparar])
 				comparar = cambios;
