@@ -24,7 +24,6 @@ void selection_sort(int *array, size_t size)
 		if (comparar != recorrer)
 			print_array(array, size);
 	}
-	if (!array)
 		return;
 }
 
