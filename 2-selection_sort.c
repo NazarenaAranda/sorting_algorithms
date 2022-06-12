@@ -3,7 +3,8 @@
  * selection_sort - ordenar array utilizando Selection sort
  * @array: donde estan los enteros a imprimir
  * @size: numero de elemenetos de la array
- */
+ * Return: void
+*/
 void selection_sort(int *array, size_t size)
 {
 	size_t recorrer, comparar, cambios, aux;
@@ -23,6 +24,8 @@ void selection_sort(int *array, size_t size)
 		if (comparar != recorrer)
 			print_array(array, size);
 	}
+	if (!array)
+		return;
 }
 
 
