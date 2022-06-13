@@ -3,32 +3,37 @@
  * _cambio - cambiar nodos
  * @aux: nodo 1
  * @previo: nodo 2
+ * @h: head`
+ * Return: list
  */
 void *_cambio(listint_t **h, listint_t *aux, listint_t *previo)
 {
-        listint_t *anterior = NULL, *siguiente = NULL;
+	listint_t *anterior = NULL, *siguiente = NULL;
 
-        if (previo->prev)
-                anterior = previo->prev;
-        if (aux->next)
-                siguiente = aux->next;
+	if (previo->prev)
+		anterior = previo->prev;
 
-        if (anterior)
-                anterior->next = aux;
-        if (siguiente)
-                siguiente->prev = previo;
+	if (aux->next)
+		siguiente = aux->next;
 
-        aux->next = previo;
-        aux->prev = anterior;
-        if (anterior == NULL)
-                *h = aux;
+	if (anterior)
+		anterior->next = aux;
 
-        previo->next = siguiente;
-        previo->prev = aux;
+	if (siguiente)
+		siguiente->prev = previo;
 
-        print_list(*h);
+	aux->next = previo;
+	aux->prev = anterior;
 
-        return (aux);
+	if (anterior == NULL)
+		*h = aux;
+
+	previo->next = siguiente;
+	previo->prev = aux;
+
+	print_list(*h);
+
+	return (aux);
 }
 
 /**
