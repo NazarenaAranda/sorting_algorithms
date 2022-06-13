@@ -26,5 +26,6 @@ void insertion_sort_list(listint_t **list);
 void print_list(const listint_t *list);
 void _intercambio(int *uno, int *dos);
 void insertion_sort_list(listint_t **list);
+void *_cambio(listint_t **h, listint_t *aux, listint_t *previo);
 void selection_sort(int *array, size_t size);
 #endif
