@@ -28,4 +28,7 @@ void _intercambio(int *uno, int *dos);
 void insertion_sort_list(listint_t **list);
 void *_cambio(listint_t **h, listint_t *aux, listint_t *previo);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+int _lomuto(int *array, size_t size, int inicio, int final);
+void _recursion(int *array, size_t size, int inicio, int final);
 #endif
