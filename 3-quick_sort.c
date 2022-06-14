@@ -3,7 +3,7 @@
  * _lomuto - posicionar pivote como el ultimo elemento
 *usando el esquema de fraccionamiento de Lomuto
  * @array: array a ordenar
- * @size: tamano de la array 
+ * @size: tamano de la array
  * @inicio: limite del inicio
  * @final: limite del final
  * Return: array con pivote
@@ -43,7 +43,7 @@ int _lomuto(int *array, size_t size, int inicio, int final)
  * _recursion - ordena una array usando quick sort
  * @array: array a ordenar
  * @size: tamano de la array
- * @incio: limite del inico
+ * @inicio: limite del inico
  * @final: limite del final
  **/
 void _recursion(int *array, size_t size, int inicio, int final)
