@@ -60,3 +60,18 @@ El mejor caso: El mejor caso se da cuando la array ya está ordenada, y entonces
 El peor caso: El peor caso se da cuando el array está ordenado de forma inversa, y hay que realizar el máximo número de comparaciones e intercambios
 
 El caso medio: El caso medio se da cuando la array está desordenada pero no tanto, hay que hacer comparaciones pero no muchas
+
+QUICKSORT
+----------
+El algoritmo de ordenado QUICK SORT, es un algoritmo eficiente es mas complejo que los algoritmos anteriores. Usa la tecnica de "divide y venceras", es un algoritmo recursivo.Basicamente, estos tres pasos están involucrados en todo el proceso:
+
+1- Selección de pivot: Hay que elegir un elemento, el cual va a ser llamado pivote(generalmente el elemento más a la izquierda o más a la derecha de la partición).
+
+2- Fraccionamiento: Reordenar el array de manera que todos los elementos con valores menores que el pivote estén antes del pivote. Por el contrario, todos los elementos con valores mayores que el pivote vienen después de este. Los valores iguales pueden ir en cualquier dirección. Después de esta partición, el pivote está en su posición final.
+
+3- Repetirse: Aplique recursivamente los pasos anteriores al subarreglo de elementos con valores más pequeños que el pivote y por separado al subarreglo de elementos con valores mayores que el pivote.
+
+
+COMPLEJIDAD
+------------
+La complejidad de tiempo en el peor de los casos de Quicksort es O(n2), dónde n es el tamaño de la entrada. El peor de los casos ocurre cuando el pivote es el elemento más pequeño o más grande de la lista o cuando todos los elementos de la matriz son iguales. Esto dará como resultado la partición más desequilibrada ya que el pivote divide la matriz en dos subarreglos de tamaños 0 y n-1. Si esto sucede repetidamente en cada partición (digamos, tenemos una matriz ordenada), entonces cada llamada recursiva procesa una lista de tamaño uno menos que la lista anterior, lo que da como resultado O(n2) tiempo.
