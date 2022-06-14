@@ -28,6 +28,22 @@ Worst case: The worst case is when the array is reverse sorted, and the maximum 
 
 The average case: The average case is when the array is disordered but not so disordered that comparisons are needed but not so many
 
+QUICKSORT
+----------
+The QUICK SORT algorithm is an efficient algorithm that is more complex than the previous algorithms. It uses the "divide and conquer" technique, it is a recursive algorithm. Basically, these three steps are involved in the whole process:
+
+1- Pivot selection:You have to choose an element, which is going to be called pivot(usually the leftmost or rightmost element of the partition).
+
+2- Splitting: Rearrange the array so that all the elements with values less than the pivot are before the pivot. Conversely, all elements with values greater than the pivot come after the pivot. Equal values can go in either direction. After this partition, the pivot is in its final position.
+
+3- Repeat: Recursively apply the above steps to the subarray of elements with values smaller than the pivot and separately to the subarray of elements with values larger than the pivot.
+
+![Quicksort](https://user-images.githubusercontent.com/98347450/173479554-2cd21110-e38b-46a1-ad0e-86d54140b05d.png)
+
+COMPLEXITY
+------------
+The worst-case time complexity of Quicksort is O(n2), where n is the size of the input. The worst case occurs when the pivot is the smallest or largest element in the list or when all elements of the array are equal. This will result in the most unbalanced partition as the pivot splits the array into two subarrays of sizes 0 and n-1. If this happens repeatedly in each partition (say, we have a sorted array), then each recursive call processes a list of size one less than the previous list, resulting in O(n2) time.
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -71,6 +87,7 @@ El algoritmo de ordenado QUICK SORT, es un algoritmo eficiente es mas complejo q
 
 3- Repetirse: Aplique recursivamente los pasos anteriores al subarreglo de elementos con valores más pequeños que el pivote y por separado al subarreglo de elementos con valores mayores que el pivote.
 
+![Quicksort](https://user-images.githubusercontent.com/98347450/173479554-2cd21110-e38b-46a1-ad0e-86d54140b05d.png)
 
 COMPLEJIDAD
 ------------
